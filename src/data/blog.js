@@ -4,7 +4,7 @@ const blogData = {
   name: "Underreacted",
   image: logo,
   about: "A blog about learning React",
-  posts: [
+  articles: [
     {
       id: 1,
       title: "Components 101",
@@ -23,6 +23,12 @@ const blogData = {
       id: 3,
       title: "Function vs Class Components",
       preview: "React, meet OOJS.",
+      minutes: 47,
+    },
+    {
+      id: 4,
+      title: "Goodbye, Clean Code",
+      preview: "Let clean code guide you. Then let it go.",
       minutes: 47,
     },
   ],
